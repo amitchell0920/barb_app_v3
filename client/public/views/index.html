@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang='en' class='full-height'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+    <meta http-equiv='x-ua-compatible' content='ie=edge'>
+    <title>Barber Cuts</title>
+    <!-- Font Awesome -->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <!-- Bootstrap core CSS -->
+    <link href='css/bootstrap.min.css' rel='stylesheet'>
+    <!-- Material Design Bootstrap -->
+    <link href='css/mdb.min.css' rel='stylesheet'>
+    <style rel='stylesheet'>
+        /* Necessary for full page carousel*/
+
+        .full-height,
+        .full-height body,
+        .full-height header,
+        .full-height header .view,
+        .full-height body .view {
+            height: 100%;
+        }
+
+        @media (max-width: 740px) {
+            .full-height,
+            .full-height body,
+            .full-height header,
+            .full-height header .view,
+            .full-height body .view {
+                height: 700px;
+            }
+        }
+
+        @media (min-width: 1000px) and (max-width: 1025px) {
+            .full-height,
+            .full-height body,
+            .full-height header,
+            .full-height header .view,
+            .full-height body .view {
+                height: 770px;
+            }
+        }
+
+        .navbar {
+            background-color: transparent;
+        }
+
+        .scrolling-navbar {
+            -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            transition: background .5s ease-in-out, padding .5s ease-in-out;
+        }
+
+        .top-nav-collapse {
+            background-color: #1C2331;
+        }
+
+        footer.page-footer {
+            background-color: #1C2331;
+            margin-top: 0;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .navbar {
+                background-color: #1C2331;
+            }
+        }
+
+        /* Carousel*/
+
+        .flex-center {
+            color: #fff;
+        }
+
+        .carousel-caption {
+            height: 100%;
+            padding-top: 7rem;
+        }
+
+        .navbar .btn-group .dropdown-menu a:hover {
+            color: #000 !important;
+        }
+
+        .navbar .btn-group .dropdown-menu a:active {
+            color: #fff !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class='navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar'>
+        <div class='container'>
+            <a class='navbar-brand' href='#'>
+                GuideTrip
+            </a>
+            <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent'
+                aria-expanded='false' aria-label='Toggle navigation'>
+                <span class='navbar-toggler-icon'></span>
+            </button>
+            <div class='collapse navbar-collapse' id='navbarSupportedContent'>
+                <ul class='navbar-nav mr-auto'>
+                    <li class='nav-item active'>
+                        <a class='nav-link' href='#'>Home
+                            <span class='sr-only'>(current)</span>
+                        </a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' href='#'>Log In</a>
+                    </li>
+                </ul>
+                <form class='form-inline'>
+                    <input class='form-control mr-sm-2' type='text' placeholder='Search' aria-label='Search'>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--/.Navbar-->
+
+    <!--Footer-->
+    <footer class='page-footer center-on-small-only'>
+        <!--Footer links-->
+        <div class='container-fluid'>
+            <div class='row'>
+                <!--First column-->
+                <div class='col-lg-3 col-md-6 ml-auto'>
+                    <h5 class='title mb-3'>
+                        <strong>About Our App</strong>
+                    </h5>
+                    <p>Designed By Greatness</p>
+                    <p>Designed By Greatness</p>
+                </div>
+                <!--/.First column-->
+                <hr class='w-100 clearfix d-sm-none'>
+                <!--Second column-->
+                <div class='col-lg-2 col-md-6 ml-auto'>
+                    <h5 class='title mb-3'>
+                        <strong>First column</strong>
+                    </h5>
+                    <ul>
+                        <li>
+                            <a href='#!'>Link 1</a>
+                        </li>
+                        <li>
+                            <a href='#!'>Link 2</a>
+                        </li>
+                        <li>
+                            <a href='#!'>Link 3</a>
+                        </li>
+                        <li>
+                            <a href='#!'>Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+                <hr class='w-100 clearfix d-sm-none'>
+                <!--Third column-->
+                <div class='col-lg-2 col-md-6 ml-auto'>
+                    <h5 class='title mb-3'>
+                        <strong>Second column</strong>
+                    </h5>
+                    <ul>
+                        <li>
+                            <a href='#!'>Link 1</a>
+                        </li>
+                        <li>
+                            <a href='#!'>Link 2</a>
+                        </li>
+                        <li>
+                            <a href='#!'>Link 3</a>
+                        </li>
+                        <li>
+                            <a href='#!'>Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.Third column-->
+                <hr class='w-100 clearfix d-sm-none'>
+                <!--Fourth column-->
+                <div class='col-lg-2 col-md-6 ml-auto'>
+                    <h5 class='title mb-3'>
+                        <strong>Third column</strong>
+                    </h5>
+                    <ul>
+                        <li>
+                            <a href='#!'>Link 1</a>
+                        </li>
+                        <li>
+                            <a href='#!'>Link 2</a>
+                        </li>
+                        <li>
+                            <a href='#!'>Link 3</a>
+                        </li>
+                        <li>
+                            <a href='#!'>Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.Fourth column-->
+            </div>
+        </div>
+        <!--/.Footer links-->
+        <hr>
+        <!--Call to action-->
+        <div class='call-to-action'>
+            <h4>Guide Trip</h4>
+            <ul>
+                <li>
+                    <h5>Sign Up For Free</h5>
+                </li>
+                <li>
+                    <a target='_blank' href='/' class='btn rounded waves-effect red' rel='nofollow'>Sign up!</a>
+                </li>
+            </ul>
+        </div>
+        <!--/.Call to action-->
+        <!--Copyright-->
+        <div class='footer-copyright'>
+            <div class='container-fluid'>
+                © 2017 Copyright:
+                <a href='#'> boss.com </a>
+            </div>
+        </div>
+        <!--/.Copyright-->
+    </footer>
+    <!--/.Footer-->
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type='text/javascript' src='js/jquery-3.1.1.min.js'></script>
+    <!-- Bootstrap dropdown -->
+    <script type='text/javascript' src='js/popper.min.js'></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type='text/javascript' src='js/bootstrap.min.js'></script>
+    <!-- MDB core JavaScript -->
+    <script type='text/javascript' src='js/mdb.min.js'></script>
+</body>
+
+</html>
